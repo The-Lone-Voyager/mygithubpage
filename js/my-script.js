@@ -17,12 +17,12 @@ $window.on('scroll', function() {
 	}
 });
 
-});
-
 $('#nav li a').on('click', function(e) {
 	e.preventDefault();
 	var url = this.href;
 
-	$('#container'.remove());
-	$('#content').load(url + '#content').hide().fadeIn('slow');
+	$('#container').remove();
+	$('#content').load(url + ' #content');
+});
+
 });
