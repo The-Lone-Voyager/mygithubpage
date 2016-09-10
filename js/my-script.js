@@ -25,4 +25,4 @@ $('#nav li a').on('click', function(e) {
 
 	$('#container'.remove());
 	$('#content').load(url + '#content').hide().fadeIn('slow');
-})
+});
