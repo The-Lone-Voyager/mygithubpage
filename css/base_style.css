@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#wrapper {
+  width: 989px;
+  background-color: #2F303B;
+  margin: 0 auto;
+}
