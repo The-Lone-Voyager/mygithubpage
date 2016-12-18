@@ -1,0 +1,55 @@
+#sidebar {
+  position: fixed;
+  right: 0;
+  height: 100%;
+  width: 70px;
+  background-color: #71263f;
+}
+
+#sidebar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img#profile {
+  border-radius: 50px;
+  width: 80%;
+  border: 2px ridge #5c5e5b;
+  margin-top: 20px;
+}
+
+#sidebar #github {
+  margin-top: 20px;
+  width: 80%;
+}
+
+#sidebar #email {
+  margin-top: 20px;
+  width: 80%;
+}
+
+#main {
+  margin-right: 70px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#news-area {
+  float: right;
+  width: 100%;
+}
+
+#news-column-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.news {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
