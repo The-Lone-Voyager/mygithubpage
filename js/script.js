@@ -3,7 +3,7 @@ $(function(){
   {
     $("#sidebar").html("<img id='profile' src='img/profile.jpg' alt='Picture of Dakota' />" +
     "<div id='my-name'>Dakota Barron</div>" +
-    "<a href='http://www.github.com/the-lone-voyager'>" +
+    "<a href='http://www.github.com/dakotabarron'>" +
       "<img id='github' src='img/github.svg' alt='Link to my Github' />" +
     "</a>" +
     "<div id='my-email'>" +
@@ -15,7 +15,7 @@ $(function(){
     "</div>");
   } else {
     $("#sidebar").html("<img id='profile' src='img/profile.jpg' alt='Picture of Dakota' />" +
-    "<a href='http://www.github.com/the-lone-voyager'>" +
+    "<a href='http://www.github.com/dakotabarron'>" +
       "<img id='github' src='img/github.svg' alt='Link to my Github' />" +
     "</a>" +
     "<a href='mailto:dakotabarron52@gmail.com'>" +
